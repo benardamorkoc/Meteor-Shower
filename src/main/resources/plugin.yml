@@ -1,0 +1,16 @@
+name: MeteorShower
+version: 1.0.0
+main: arda.morkoc.MeteorShower
+author: arda.morkoc
+description: A custom meteor shower event plugin for your server.
+api-version: 1.8.8
+commands:
+  meteorshower:
+    description: Triggers a meteor shower event.
+    usage: /meteorshower <player>
+    permission: meteorshower.admin
+    permission-message: You don't have permission to use this command.
+permissions:
+  meteorshower.admin:
+    description: Allows access to the /meteorshower command.
+    default: op

@@ -1,0 +1,27 @@
+#
+# Meteor Shower Plugin Configuration
+#
+# Fully customizable settings and messages for the meteor shower event.
+#
+
+# General settings
+meteor-block: 'DIAMOND_BLOCK' # The block that will fall as a meteor.
+meteor-height: 100 # The height from which the meteor will fall.
+cooldown-minutes: 60 # Cooldown for the event in minutes.
+
+# Rewards settings
+rewards:
+  - 'give {player} diamond 1'
+  - 'eco give {player} 1000'
+  - 'give {player} experience_bottle 3'
+
+# Messages
+messages:
+  prefix: '&6[&bMeteorShower&6] '
+  no-permission: '&cYou do not have permission to use this command.'
+  invalid-command: '&cInvalid command usage! Use /meteorshower <player>.'
+  meteor-summoned: '&aA meteor is about to strike at the location of &e{player}&a!'
+  meteor-landed: '&6A meteor has landed! Find and mine it for a special reward!'
+  cooldown-active: '&cA meteor shower has already been started recently. Please wait {time} more minutes.'
+  reward-message: '&aYou have found a reward! You received: &e{reward}&a.'
+  broadcast-message: '&6A meteor shower is starting! Be prepared!'

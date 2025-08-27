@@ -12,7 +12,7 @@ A fun and customizable Minecraft plugin that adds a meteor shower event to your 
 
 ## Installation
 
-1.  Download the latest version of the plugin from the [SpigotMC page](https://www.spigotmc.org/resources/meteorshower.XXXXX/).
+1.  Download the latest version of the plugin from the [Releases page](https://github.com/benardamorkoc/Meteor-Shower/releases/tag/v1.0.0).
 2.  Place the `MeteorShower.jar` file into your server's `/plugins/` folder.
 3.  Restart or reload your server.
 4.  A `MeteorShower` folder will be created in your `/plugins/` directory, containing the default `config.yml`. Customize it to your liking.
